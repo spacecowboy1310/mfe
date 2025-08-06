@@ -6,8 +6,8 @@ const generateClassName = createGenerateClassName({
     productionPrefix: "au",
 });
 
-import SignIn from "./components/SignIn";
-import SignUp from "./components/SignUp";
+import SignIn from "./components/Signin";
+import SignUp from "./components/Signup";
 
 export default ({ history, onSignIn }) => {
     return (
